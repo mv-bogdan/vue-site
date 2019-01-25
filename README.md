@@ -1,6 +1,6 @@
 # mbogdan.ru
 
-> A Vue.js project
+> A Vue.js project for http://www.mbogdan.ru/
 
 ## Build Setup
 
