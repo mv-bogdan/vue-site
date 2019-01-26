@@ -5,29 +5,30 @@
             clipped
             fixed
             app
+            class="green lighten-4"
     >
       <v-list dense>
-        <v-list-tile @click="">
+        <v-list-tile @click="mainPage">
           <v-list-tile-action>
-            <v-icon>dashboard</v-icon>
+            <v-icon>star</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title><v-link href="/" @click="about">Пункт_1</v-link></v-list-tile-title>
+            <v-list-tile-title>Главная</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile @click="">
+        <v-list-tile @click="about">
           <v-list-tile-action>
-            <v-icon>settings</v-icon>
+            <v-icon>timeline</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title>Пункт_2</v-list-tile-title>
+            <v-list-tile-title>Мои проекты</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
     <v-toolbar app fixed clipped-left>
-      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-title><v-btn href="/" @click="mainPage">mbogdan.ru</v-btn></v-toolbar-title>
+      <!--<v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>-->
+      <v-toolbar-title>mbogdan.ru</v-toolbar-title>
       </v-toolbar>
     <v-content>
       <v-container fluid fill-height>
@@ -37,7 +38,7 @@
       </v-container>
     </v-content>
     <v-footer app fixed>
-      <span>&copy; 2019</span>
+      <span>&copy; {{ dateYear }}</span>
     </v-footer>
   </v-app>
 </template>
@@ -69,6 +70,11 @@ export default {
             this.$router.push('/about')
         },
     },
-
+    computed: {
+        dateYear: function () {
+                let date = new Date();
+            return date.getFullYear()
+        }
+    }
 }
 </script>
