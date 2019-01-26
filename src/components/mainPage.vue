@@ -12,7 +12,18 @@
                     width="75%"
                     maxwidth="90%"
             >
-                <p>Компонент главной страницы</p>
+                <v-jumbotron>
+                    <v-container fill-height>
+                        <v-layout>
+                            <v-flex>
+                                <h8 class="display-1">Главная страница</h8>
+
+                                <v-divider class="my-2"></v-divider>
+                                <span class="subheading">*Информация обо мне.*</span>
+                            </v-flex>
+                        </v-layout>
+                    </v-container>
+                </v-jumbotron>
             </v-sheet>
       </v-layout>
     </v-slide-y-transition>

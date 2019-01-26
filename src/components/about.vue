@@ -12,7 +12,19 @@
                         width="75%"
                         maxwidth="90%"
                 >
-                    <p>Мои проекты</p>
+                    <v-jumbotron>
+                        <v-container fill-height>
+                            <v-layout>
+                                <v-flex>
+                                    <h8 class="display-1">Мои проекты</h8>
+
+                                    <v-divider class="my-3"></v-divider>
+
+                                    <span class="subheading">Все мои проекты находятся в открытом доступе на <a target="_blank" href="https://github.com/mv-bogdan">GitHub</a></span>
+                                </v-flex>
+                            </v-layout>
+                        </v-container>
+                    </v-jumbotron>
                 </v-sheet>
             </v-layout>
         </v-slide-y-transition>
