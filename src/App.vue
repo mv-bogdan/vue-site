@@ -5,7 +5,7 @@
             clipped
             fixed
             app
-            class="green lighten-4"
+            class="green lighten-5"
     >
       <v-list dense>
         <v-list-tile @click="mainPage">
@@ -26,7 +26,7 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar app fixed clipped-left>
+    <v-toolbar app fixed clipped-left class="green lighten-4">
       <!--<v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>-->
       <v-toolbar-title>mbogdan.ru</v-toolbar-title>
       </v-toolbar>
@@ -38,7 +38,9 @@
       </v-container>
     </v-content>
     <v-footer app fixed>
-      <span>&copy; {{ dateYear }}</span>
+      <v-layout justify-center align-center>
+        <span>&copy; {{ dateYear }}</span>
+      </v-layout>
     </v-footer>
   </v-app>
 </template>
