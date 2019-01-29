@@ -15,7 +15,7 @@
                     <v-container wrap row>
                         <v-layout>
                             <v-flex>
-                                <h8 class="display-1">Обо мне</h8>
+                                <h1 align="center">Обо мне</h1>
                                 <v-divider class="my-1"></v-divider>
                             </v-flex>
                          </v-layout>
@@ -39,7 +39,7 @@
                                 </v-img>
                             </v-flex>-->
                             <v-flex xs12 sm9>
-                                <span class="subheading">Меня зовут Богдан, я - студент {{dateYear - 2018}}-го курса МГТУ им. Баумана. Учусь на кафедре ФН-12 "Математическое моделирование" </span>
+                                <span class="subheading">Меня зовут Богдан, мне 18 лет. Я - студент {{dateYear - 2018}}-го курса МГТУ им. Баумана. Учусь на кафедре ФН-12 "Математическое моделирование".</span>
                             </v-flex>
                         </v-layout>
                     </v-container>

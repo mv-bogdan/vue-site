@@ -16,7 +16,7 @@
                         <v-container fill-height>
                             <v-layout>
                                 <v-flex>
-                                    <h8 class="display-1">Мои проекты</h8>
+                                    <h2 class="display-1">Мои проекты</h2>
 
                                     <v-divider class="my-3"></v-divider>
 
