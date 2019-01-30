@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import mainPage from '../components/mainPage'
-import about from '../components/about'
+import projects from '../components/projects'
 
 
 Vue.use(Router)
@@ -15,9 +15,9 @@ export default new Router({
             component: mainPage,
         },
         {
-            path: '/about',
-            name: 'About',
-            component: about,
+            path: '/projects',
+            name: 'projects',
+            component: projects,
         },
     ],
 })

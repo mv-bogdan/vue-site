@@ -69,7 +69,7 @@ export default {
             this.$router.push('/')
         },
         about: function () {
-            this.$router.push('/about')
+            this.$router.push('/projects')
         },
     },
     computed: {

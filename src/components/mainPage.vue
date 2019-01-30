@@ -12,15 +12,13 @@
                     width="75%"
                     maxwidth="90%"
             >
-                    <v-container wrap row>
-                        <v-layout>
+                <v-container grid-list-md>
+                    <v-layout>
                             <v-flex>
-                                <h1 align="center">Обо мне</h1>
-                                <v-divider class="my-1"></v-divider>
+                                <h1 align="center" class="display-1">Обо мне</h1>
+                                <v-divider class="my-2"></v-divider>
                             </v-flex>
                          </v-layout>
-                    </v-container>
-                    <v-container grid-list-md>
                         <v-layout row wrap>
                             <v-flex xs12 sm3>
                                 <v-card
