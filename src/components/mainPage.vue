@@ -24,18 +24,9 @@
                                 <v-card
                                     :elevation = "12"
                                 >
-                                    <v-img
-                                       :src="`https://pp.userapi.com/c845523/v845523597/8e58f/6BonQGUGGDQ.jpg`"
-                                    >
-                                    </v-img>
+
                                 </v-card>
                             </v-flex>
-                            <!--<v-flex xs12 sm9>
-                                <v-img
-                                        :src="`http://www.vesvks.ru/public/article/images/ed8e13c307e611a5e05f82eb77ca30dd7d27eb2d.jpg`"
-                                >
-                                </v-img>
-                            </v-flex>-->
                             <v-flex xs12 sm9>
                                 <span class="subheading">Меня зовут Богдан, мне 18 лет. Я - студент {{dateYear - 2018}}-го курса МГТУ им. Баумана. Учусь на кафедре ФН-12 "Математическое моделирование".</span>
                             </v-flex>
